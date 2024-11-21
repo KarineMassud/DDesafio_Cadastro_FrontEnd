@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-200 flex items-center justify-center">
-      <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">Cadastro de Empresa</h2>
+      <h2 class="text-3xl font-semibold text-gray-800 mb-8 text-center">CADASTRO DE EMPRESA</h2>
 
       <form @submit.prevent="submitForm" class="space-y-6">
         <!-- Grids para campos lado a lado -->
@@ -62,7 +62,7 @@
         <!-- Botão de Enviar -->
         <div class="text-center">
           <button type="submit" class="submit-button">
-            Cadastrar Empresa
+            Cadastrar
           </button>
         </div>
       </form>
@@ -119,7 +119,7 @@ export default {
   margin-top: 0.5rem;
   border-radius: 8px;
   border: 1px solid rgb(233, 35, 35);
-  background-color: #fafaf6;
+  background-color: #faf6f6;
   font-size: 1rem;
   transition: border-color 0.3s ease, background-color 0.3s ease;
 }
@@ -138,10 +138,11 @@ export default {
   border-radius: 8px;
   border: none;
   transition: background-color 0.3s ease;
+  width: 30%;
 }
 
 .submit-button:hover {
-  background-color: #4F46E5;
+  background-color: #9996d0;
 }
 
 .submit-button:focus {
@@ -149,7 +150,7 @@ export default {
 }
 
 h2 {
-  font-family: 'Arial', sans-serif;
+  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
   font-size: 2rem;
   color: #f20b0b;
 }
