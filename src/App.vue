@@ -62,7 +62,7 @@
         <!-- Botão de Enviar -->
         <div class="text-center">
           <button type="submit" class="submit-button">
-            Cadastrar
+            CADASTRAR
           </button>
         </div>
       </form>
@@ -119,7 +119,7 @@ export default {
   margin-top: 0.5rem;
   border-radius: 8px;
   border: 1px solid rgb(233, 35, 35);
-  background-color: #faf6f6;
+  background-color: #fafaf6;
   font-size: 1rem;
   transition: border-color 0.3s ease, background-color 0.3s ease;
 }
@@ -142,7 +142,7 @@ export default {
 }
 
 .submit-button:hover {
-  background-color: #9996d0;
+  background-color: #a4a1eb;
 }
 
 .submit-button:focus {
@@ -150,7 +150,7 @@ export default {
 }
 
 h2 {
-  font-family: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
   font-size: 2rem;
   color: #f20b0b;
 }
